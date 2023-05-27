@@ -12,7 +12,7 @@
       "updated": "Um Autor foi atualizado com o identificador {{ param }}",
       "deleted": "Um Autor foi excluído com o identificador {{ param }}",
       "delete": {
-        "question": "Tem certeza de que deseja excluir Autor {{ id }}?"
+        "question": "Tem certeza de que deseja excluir Autor {{ nombreAutor }}?"
       },
       "detail": {
         "title": "Autor"

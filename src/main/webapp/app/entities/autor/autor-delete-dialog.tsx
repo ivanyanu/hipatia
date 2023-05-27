@@ -45,7 +45,7 @@ export const AutorDeleteDialog = () => {
         <Translate contentKey="entity.delete.title">Confirm delete operation</Translate>
       </ModalHeader>
       <ModalBody id="hipatiaApp.autor.delete.question">
-        <Translate contentKey="hipatiaApp.autor.delete.question" interpolate={{ id: autorEntity.id }}>
+        <Translate contentKey="hipatiaApp.autor.delete.question" interpolate={{ nombreAutor: autorEntity.nombreAutor }}>
           Are you sure you want to delete this Autor?
         </Translate>
       </ModalBody>
