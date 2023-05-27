@@ -1,0 +1,40 @@
+{
+  "applications": "*",
+  "changelogDate": "20230527204840",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "ejemplar",
+  "fields": [
+    {
+      "fieldName": "estadoEjemplar",
+      "fieldType": "EstadoEjemplar",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "DISPONIBLE,PRESTADO,EN,REVISION,BAJA"
+    },
+    {
+      "fieldName": "fechaAltaEjemplar",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Ejemplar",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "prestamo",
+      "otherEntityRelationshipName": "ejemplar",
+      "relationshipName": "prestamo",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "libro",
+      "otherEntityRelationshipName": "ejemplar",
+      "relationshipName": "libro",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

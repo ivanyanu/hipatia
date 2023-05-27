@@ -1,0 +1,10 @@
+{
+  "hipatiaApp": {
+    "EstadoReserva": {
+      "null": "",
+      "SOLICITADA": "SOLICITADA",
+      "CONFIRMADA": "CONFIRMADA",
+      "CANCELADA": "CANCELADA"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "hipatiaApp": {
+    "EstadoEjemplar": {
+      "null": "",
+      "DISPONIBLE": "DISPONIBLE",
+      "PRESTADO": "PRESTADO",
+      "EN": "EN",
+      "REVISION": "REVISION",
+      "BAJA": "BAJA"
+    }
+  }
+}

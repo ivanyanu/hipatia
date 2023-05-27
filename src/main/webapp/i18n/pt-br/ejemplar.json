@@ -1,0 +1,27 @@
+{
+  "hipatiaApp": {
+    "ejemplar": {
+      "home": {
+        "title": "Ejemplars",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Ejemplar",
+        "createOrEditLabel": "Criar ou editar Ejemplar",
+        "notFound": "Nenhum Ejemplar encontrado"
+      },
+      "created": "Um novo Ejemplar foi criado com o identificador {{ param }}",
+      "updated": "Um Ejemplar foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Ejemplar foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Ejemplar {{ id }}?"
+      },
+      "detail": {
+        "title": "Ejemplar"
+      },
+      "id": "ID",
+      "estadoEjemplar": "Estado Ejemplar",
+      "fechaAltaEjemplar": "Fecha Alta Ejemplar",
+      "prestamo": "Prestamo",
+      "libro": "Libro"
+    }
+  }
+}

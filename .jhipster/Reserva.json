@@ -1,0 +1,29 @@
+{
+  "applications": "*",
+  "changelogDate": "20230527204841",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "reserva",
+  "fields": [
+    {
+      "fieldName": "estadoReserva",
+      "fieldType": "EstadoReserva",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "SOLICITADA,CONFIRMADA,CANCELADA"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Reserva",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "estudiante",
+      "otherEntityRelationshipName": "reserva",
+      "relationshipName": "nombreEstudiante",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

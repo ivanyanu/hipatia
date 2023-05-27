@@ -1,0 +1,28 @@
+{
+  "hipatiaApp": {
+    "prestamo": {
+      "home": {
+        "title": "Prestamos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Prestamo",
+        "createOrEditLabel": "Create or edit a Prestamo",
+        "notFound": "No Prestamos found"
+      },
+      "created": "A new Prestamo is created with identifier {{ param }}",
+      "updated": "A Prestamo is updated with identifier {{ param }}",
+      "deleted": "A Prestamo is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Prestamo {{ id }}?"
+      },
+      "detail": {
+        "title": "Prestamo"
+      },
+      "id": "ID",
+      "estadoPrestamo": "Estado Prestamo",
+      "fechaPrestamo": "Fecha Prestamo",
+      "fechaDevolucion": "Fecha Devolucion",
+      "nombreEstudiante": "Nombre Estudiante",
+      "ejemplar": "Ejemplar"
+    }
+  }
+}

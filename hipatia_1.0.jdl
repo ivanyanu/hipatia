@@ -1,0 +1,63 @@
+
+entity Estudiante {
+    nombreEstudiante String minlength(3) maxlength(50) required,
+    apellidoEstudiante String minlength(3) maxlength(50) required,
+    carrera String maxlength(50) required,
+    dni String minlength(5) maxlength(10) required,
+    legajo String minlength(7) maxlength(7) required,
+    fechaNacimiento LocalDate required
+}
+
+entity Editorial {
+    nombreEditorial String minlength(5) maxlength(50) required,
+    cantidadTitulos Long max(100)
+}
+
+entity Libro {
+    nombreLibro String minlength(5) maxlength(100) required,
+    isbn String minlength(13) maxlength(13) required,
+    fechaPublicacion LocalDate required
+}
+
+entity Autor {
+    nombreAutor String minlength(3) maxlength(50) required,
+    apellidoAutor String minlength(3) maxlength(50) required,
+    origenAutor String maxlength(50) required,
+}
+entity Ejemplar {
+    estadoEjemplar  EstadoEjemplar required,
+    fechaAltaEjemplar String required
+}
+enum EstadoEjemplar {
+    DISPONIBLE, PRESTADO, EN REVISION, BAJA
+}
+entity Reserva {
+    estadoReserva  EstadoReserva required
+}
+enum EstadoReserva{
+    SOLICITADA, CONFIRMADA, CANCELADA
+}
+entity Prestamo {
+    estadoPrestamo EstadoPrestamo,
+    fechaPrestamo Instant,
+    fechaDevolucion Instant
+}
+enum EstadoPrestamo{
+    INICIADO, DEVUELTO
+}
+entity Genero {
+    nombreGenero String maxlength(50) required,
+    descripcionGenero String maxlength(100)
+}
+relationship OneToMany {
+    Estudiante to Reserva{nombreEstudiante},
+    Estudiante to Prestamo{nombreEstudiante},
+    Ejemplar to Prestamo{ejemplar}
+    Libro to Ejemplar{libro},
+    Genero to Libro{genero},
+    Editorial to Libro{editorial}
+}
+relationship ManyToMany {
+    Autor{libro(nombreLibro)} to Libro{autor}
+}
+

@@ -1,0 +1,61 @@
+{
+  "applications": "*",
+  "changelogDate": "20230527204838",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "libro",
+  "fields": [
+    {
+      "fieldName": "nombreLibro",
+      "fieldType": "String",
+      "fieldValidateRules": ["minlength", "maxlength", "required"],
+      "fieldValidateRulesMaxlength": "100",
+      "fieldValidateRulesMinlength": "5"
+    },
+    {
+      "fieldName": "isbn",
+      "fieldType": "String",
+      "fieldValidateRules": ["minlength", "maxlength", "required"],
+      "fieldValidateRulesMaxlength": "13",
+      "fieldValidateRulesMinlength": "13"
+    },
+    {
+      "fieldName": "fechaPublicacion",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Libro",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "ejemplar",
+      "otherEntityRelationshipName": "libro",
+      "relationshipName": "ejemplar",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "genero",
+      "otherEntityRelationshipName": "libro",
+      "relationshipName": "genero",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "editorial",
+      "otherEntityRelationshipName": "libro",
+      "relationshipName": "editorial",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "autor",
+      "otherEntityRelationshipName": "libro",
+      "ownerSide": false,
+      "relationshipName": "autor",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "no"
+}

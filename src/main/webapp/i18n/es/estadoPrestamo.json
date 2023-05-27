@@ -1,0 +1,9 @@
+{
+  "hipatiaApp": {
+    "EstadoPrestamo": {
+      "null": "",
+      "INICIADO": "INICIADO",
+      "DEVUELTO": "DEVUELTO"
+    }
+  }
+}

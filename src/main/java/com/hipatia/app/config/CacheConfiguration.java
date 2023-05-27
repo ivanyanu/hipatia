@@ -48,6 +48,22 @@ public class CacheConfiguration {
             createCache(cm, com.hipatia.app.domain.User.class.getName());
             createCache(cm, com.hipatia.app.domain.Authority.class.getName());
             createCache(cm, com.hipatia.app.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.hipatia.app.domain.Estudiante.class.getName());
+            createCache(cm, com.hipatia.app.domain.Estudiante.class.getName() + ".reservas");
+            createCache(cm, com.hipatia.app.domain.Estudiante.class.getName() + ".prestamos");
+            createCache(cm, com.hipatia.app.domain.Editorial.class.getName());
+            createCache(cm, com.hipatia.app.domain.Editorial.class.getName() + ".libros");
+            createCache(cm, com.hipatia.app.domain.Libro.class.getName());
+            createCache(cm, com.hipatia.app.domain.Libro.class.getName() + ".ejemplars");
+            createCache(cm, com.hipatia.app.domain.Libro.class.getName() + ".autors");
+            createCache(cm, com.hipatia.app.domain.Autor.class.getName());
+            createCache(cm, com.hipatia.app.domain.Autor.class.getName() + ".libros");
+            createCache(cm, com.hipatia.app.domain.Ejemplar.class.getName());
+            createCache(cm, com.hipatia.app.domain.Ejemplar.class.getName() + ".prestamos");
+            createCache(cm, com.hipatia.app.domain.Reserva.class.getName());
+            createCache(cm, com.hipatia.app.domain.Prestamo.class.getName());
+            createCache(cm, com.hipatia.app.domain.Genero.class.getName());
+            createCache(cm, com.hipatia.app.domain.Genero.class.getName() + ".libros");
             // jhipster-needle-ehcache-add-entry
         };
     }

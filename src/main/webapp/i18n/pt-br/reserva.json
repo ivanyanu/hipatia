@@ -1,0 +1,25 @@
+{
+  "hipatiaApp": {
+    "reserva": {
+      "home": {
+        "title": "Reservas",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Reserva",
+        "createOrEditLabel": "Criar ou editar Reserva",
+        "notFound": "Nenhum Reserva encontrado"
+      },
+      "created": "Um novo Reserva foi criado com o identificador {{ param }}",
+      "updated": "Um Reserva foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Reserva foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Reserva {{ id }}?"
+      },
+      "detail": {
+        "title": "Reserva"
+      },
+      "id": "ID",
+      "estadoReserva": "Estado Reserva",
+      "nombreEstudiante": "Nombre Estudiante"
+    }
+  }
+}

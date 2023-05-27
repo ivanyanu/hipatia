@@ -1,0 +1,30 @@
+{
+  "hipatiaApp": {
+    "libro": {
+      "home": {
+        "title": "Libros",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Libro",
+        "createOrEditLabel": "Criar ou editar Libro",
+        "notFound": "Nenhum Libro encontrado"
+      },
+      "created": "Um novo Libro foi criado com o identificador {{ param }}",
+      "updated": "Um Libro foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Libro foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Libro {{ id }}?"
+      },
+      "detail": {
+        "title": "Libro"
+      },
+      "id": "ID",
+      "nombreLibro": "Nombre Libro",
+      "isbn": "Isbn",
+      "fechaPublicacion": "Fecha Publicacion",
+      "ejemplar": "Ejemplar",
+      "genero": "Genero",
+      "editorial": "Editorial",
+      "autor": "Autor"
+    }
+  }
+}

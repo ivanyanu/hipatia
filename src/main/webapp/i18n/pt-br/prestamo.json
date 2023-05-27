@@ -1,0 +1,28 @@
+{
+  "hipatiaApp": {
+    "prestamo": {
+      "home": {
+        "title": "Prestamos",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Prestamo",
+        "createOrEditLabel": "Criar ou editar Prestamo",
+        "notFound": "Nenhum Prestamo encontrado"
+      },
+      "created": "Um novo Prestamo foi criado com o identificador {{ param }}",
+      "updated": "Um Prestamo foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Prestamo foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Prestamo {{ id }}?"
+      },
+      "detail": {
+        "title": "Prestamo"
+      },
+      "id": "ID",
+      "estadoPrestamo": "Estado Prestamo",
+      "fechaPrestamo": "Fecha Prestamo",
+      "fechaDevolucion": "Fecha Devolucion",
+      "nombreEstudiante": "Nombre Estudiante",
+      "ejemplar": "Ejemplar"
+    }
+  }
+}

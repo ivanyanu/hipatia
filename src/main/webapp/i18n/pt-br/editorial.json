@@ -1,0 +1,26 @@
+{
+  "hipatiaApp": {
+    "editorial": {
+      "home": {
+        "title": "Editorials",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Editorial",
+        "createOrEditLabel": "Criar ou editar Editorial",
+        "notFound": "Nenhum Editorial encontrado"
+      },
+      "created": "Um novo Editorial foi criado com o identificador {{ param }}",
+      "updated": "Um Editorial foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Editorial foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Editorial {{ id }}?"
+      },
+      "detail": {
+        "title": "Editorial"
+      },
+      "id": "ID",
+      "nombreEditorial": "Nombre Editorial",
+      "cantidadTitulos": "Cantidad Titulos",
+      "libro": "Libro"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "applications": "*",
+  "changelogDate": "20230527204842",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "prestamo",
+  "fields": [
+    {
+      "fieldName": "estadoPrestamo",
+      "fieldType": "EstadoPrestamo",
+      "fieldValues": "INICIADO,DEVUELTO"
+    },
+    {
+      "fieldName": "fechaPrestamo",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "fechaDevolucion",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Prestamo",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "estudiante",
+      "otherEntityRelationshipName": "prestamo",
+      "relationshipName": "nombreEstudiante",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "ejemplar",
+      "otherEntityRelationshipName": "prestamo",
+      "relationshipName": "ejemplar",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

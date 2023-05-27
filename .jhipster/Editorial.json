@@ -1,0 +1,36 @@
+{
+  "applications": "*",
+  "changelogDate": "20230527204837",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "editorial",
+  "fields": [
+    {
+      "fieldName": "nombreEditorial",
+      "fieldType": "String",
+      "fieldValidateRules": ["minlength", "maxlength", "required"],
+      "fieldValidateRulesMaxlength": "50",
+      "fieldValidateRulesMinlength": "5"
+    },
+    {
+      "fieldName": "cantidadTitulos",
+      "fieldType": "Long",
+      "fieldValidateRules": ["max"],
+      "fieldValidateRulesMax": "100"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Editorial",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "libro",
+      "otherEntityRelationshipName": "editorial",
+      "relationshipName": "libro",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

@@ -1,0 +1,26 @@
+{
+  "hipatiaApp": {
+    "genero": {
+      "home": {
+        "title": "Generos",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Genero",
+        "createOrEditLabel": "Crear o editar Genero",
+        "notFound": "Ningún Generos encontrado"
+      },
+      "created": "Un nuevo Genero ha sido creado con el identificador {{ param }}",
+      "updated": "Un Genero ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Genero ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Genero {{ id }}?"
+      },
+      "detail": {
+        "title": "Genero"
+      },
+      "id": "ID",
+      "nombreGenero": "Nombre Genero",
+      "descripcionGenero": "Descripcion Genero",
+      "libro": "Libro"
+    }
+  }
+}

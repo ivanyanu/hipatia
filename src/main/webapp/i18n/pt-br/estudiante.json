@@ -1,0 +1,31 @@
+{
+  "hipatiaApp": {
+    "estudiante": {
+      "home": {
+        "title": "Estudiantes",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Estudiante",
+        "createOrEditLabel": "Criar ou editar Estudiante",
+        "notFound": "Nenhum Estudiante encontrado"
+      },
+      "created": "Um novo Estudiante foi criado com o identificador {{ param }}",
+      "updated": "Um Estudiante foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Estudiante foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Estudiante {{ id }}?"
+      },
+      "detail": {
+        "title": "Estudiante"
+      },
+      "id": "ID",
+      "nombreEstudiante": "Nombre Estudiante",
+      "apellidoEstudiante": "Apellido Estudiante",
+      "carrera": "Carrera",
+      "dni": "Dni",
+      "legajo": "Legajo",
+      "fechaNacimiento": "Fecha Nacimiento",
+      "reserva": "Reserva",
+      "prestamo": "Prestamo"
+    }
+  }
+}
